@@ -1,0 +1,92 @@
+@media screen and (max-width: 770px) {
+  .navbar {
+    width: 90%;
+    height: auto;
+  }
+  .nav-logo h2 {
+    font-size: 20px;
+  }
+  #menu-bar {
+    display: grid;
+    color: white;
+    position: absolute;
+    right: 5%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .nav-link {
+    flex-direction: column;
+    position: absolute;
+    background: #242920;
+    width: 100%;
+    left: 0;
+    padding: 0;
+  }
+  .nav-link li a {
+    border-bottom: 1px solid white;
+    display: block;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+  }
+  .nav-link li:last-child a {
+    border-bottom: none;
+  }
+  .main {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .main-child {
+    flex-basis: 100%;
+  }
+  .main-child:last-child {
+    margin-bottom: 20px;
+  }
+  .main-child h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .main-child p {
+    font-size: 20px;
+  }
+
+  /* yazılımlar */
+  .software-child {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* sertifikalar */
+  .certificate-icon {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  /* başarılarım */
+  .img-suc {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .about-suc {
+    flex-basis: 100%;
+    
+  }
+
+/* iletişim */
+.comm-img{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.comm-form{
+    flex-basis: 100%;
+}
+
+
+
+
+
+}
